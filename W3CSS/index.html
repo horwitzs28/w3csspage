@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Waffle Cabin Breakfast Food Truck</title>
+<meta charset="UTF-8">
+<link rel="icon" type="image/x-icon" href="/images/logo.jpg.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+h1{
+  background-color: white;
+}
+#menu2{
+display: flex;
+}
+.w3-card-4{
+margin-right: 50px;
+}
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">Waffle Cabin Food Truck</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+<br><br><br><br>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+  <img class="w3-image" src="images/hamburger-Recovered-Recovered.jpg" alt="Hamburger Catering" width="1600" height="800">
+  <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+    <h1 class="w3-xxlarge">Waffle Cabin Food Truck</h1>
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+
+  <!-- About Section -->
+  <div class="w3-row w3-padding-64" id="about">
+    <div class="w3-col m6 w3-padding-large w3-hide-small">
+      <div class="w3-content w3-display-container">
+        <img class="mySlides" src="images/tablesetting2-Recovered.jpg" style="width:100%">
+        <img class="mySlides" src="images/tablesetting2-Recovered2.jpg" style="width:100%">
+        <img class="mySlides" src="images/tablesetting2-Recovered3.jpg" style="width:100%">
+        <img class="mySlides" src="images/tablesetting2-Recovered4.jpg" style="width:100%">
+      
+        <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+      </div>
+    </div>
+
+    <div class="w3-col m6 w3-padding-large">
+      <h1 class="w3-center">About Waffle Cabin</h1><br>
+      <h5 class="w3-center">Founded in 1998</h5>
+      <p class="w3-large">The newest company deciding to turn to food trucks is every skier's favorite: Waffle Cabin! Whenever you're skiing to the chairlift or heading in for a break, we all know you smell our freshly baked waffles from our well known cabins. I bet you wished you weren't skiing and could just sit and eat our waffles forever. Now, you will find Waffle Cabins not just on the ski slopes, but in town or places without ski mountains! Enjoy a fresh waffle made with<span class="w3-tag w3-light-grey">real</span> ingredients today!</p>
+      <p class="w3-large w3-text-grey w3-hide-medium">The founder of Waffle Cabins claims he was going to start the business with food trucks, but invested more money into building shacks on the ski slopes. Now he enjoys that his original idea and dream is coming true.</p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Menu Section -->
+  <div class="w3-row w3-padding-64" id="menu">
+    <div class="w3-col l6 w3-padding-large">
+      <h1 class="w3-center">Our Menu</h1><br>
+      <h4>Basic Waffle</h4>
+      <p class="w3-text-grey">A Belgian waffle with your choice of toppings 10.50</p><br>
+    
+      <h4>Fruitiful Waffle</h4>
+      <p class="w3-text-grey">A Belgian waffle made with your choice of strawberies, bananas, or blueberries. Your choice of toppings. 11.50</p><br>
+    
+      <h4>Mini Waffles</h4>
+      <p class="w3-text-grey">3 mini Belgian waffles with your choice of two toppings maximum. 7.50</p><br>
+    
+      <h4>Half and Half Waffle</h4>
+      <p class="w3-text-grey">A Belgian waffle made with half normal waffle, half your choice of chocolate or strawberry waffle and your choice of toppings. 12.50</p><br>
+    
+      <h4>Your Choice</h4>
+      <p class="w3-text-grey">Mix and match every type of waffle until you find the one you keep ordering every time. Price may vary.</p>    
+    </div>
+    
+    <div class="w3-col l6 w3-padding-large">
+      <img src="images/tablesetting-Recovered.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+    </div>
+    <div class="w3-white w3-section" style="width:25%">
+      <button onclick="myFunction('Demo1')" class="w3-button w3-block">
+      <h3>Topping Options</h3></button>
+      <div id="Demo1" class="w3-hide w3-container">
+        <p>
+          *1.00 for every added topping*
+          <ul>
+            <h6><li>Nutella</li>
+            <li>Strawberries</li>
+            <li>Blueberries</li>
+            <li>Bananas</li>
+            <li>Marshmallows</li>
+            <li>Whipped Cream</li>
+          <li>Chocolate Syrup</li>
+        <li>Oreos</li>
+      <li>Kit-kats</li>
+    <li>Reeses Pieces</li>
+  <li>Powdered Sugar</li></h6>
+          </ul>
+        </p>
+      </div>
+    </div>
+    
+  </div>
+
+  <hr>
+  <h1 class="w3-center">Our Merch</h1><br><br>
+  <h3 class="w3-center">Stickers</h3>
+  <div class="w3-container w3-padding-64" id="menu2">
+  <div class="w3-card-4" style="width:45%">
+    <img src="images/bitemesticker.jpg" alt="bitemesticker" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Bite Me Sticker</p>
+    </div>
+  </div>
+
+  <div class="w3-card-4" style="width:45%">
+    <img src="images/wafflogoysticker.jpg" alt="waffologysticker" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Waffology Sticker</p>
+    </div>
+  </div>
+  <div class="w3-card-4" style="width:45%">
+    <img src="images/wafflecabinsticker.jpg" alt="wafflecabinsticker" style="width:100%">
+    <div class="w3-container w3-center">
+      <p>Waffle Cabin Sticker</p>
+    </div>
+  </div>
+  </div>
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-64" id="contact">
+    <h1>Contact</h1><br>
+    <p>We can cater your dream breakfast! </p>
+    <p class="w3-text-amber w3-large"><b>We strive to be in every major city. Try and find where we'll be next!</b></p>
+    <p>You can also contact us by phone (508-waf-fles), email welovewaffles@gmail.com, or you can send us a message here:</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="number" placeholder="Amount of Waffles" required name="People"></p>
+      <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date" value="2020-11-16T20:00"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
+      <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+    </form>
+  </div>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+<script>
+  function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  </script>
+  <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+    
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+    
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      x[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    
+
+</body>
+</html>
